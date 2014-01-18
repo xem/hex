@@ -1,0 +1,1 @@
+<html ondrop="h='<pre>HexViewer| ';for(i=0;i<16;i++)h+=0+i.toString(16)+' ';h+='\n';for(i=58;i--;)h+='-';(r=new FileReader).readAsArrayBuffer(event.dataTransfer.files[0]);r.onload=function(){for(i in u=new Uint8Array(r.result))h+=(i%16?' ':'\n'+(1e7+i.toString(16)).slice(-8)+' | ')+(0+u[i].toString(16)).slice(-2);p.innerHTML=h};return!1"ondragover=return!1 id=p>

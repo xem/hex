@@ -1,0 +1,1 @@
+<input onchange="h='';(r=new FileReader).readAsArrayBuffer(event.target.files[0]);r.onload=function(){for(i in u=new Uint8Array(r.result))h+=(i%16?' ':'\n')+(0+u[i].toString(16)).slice(-2);p.innerHTML=h}"type=file><pre id=p>
