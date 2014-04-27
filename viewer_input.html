@@ -1,1 +1,1 @@
-﻿<input onchange="h='<pre>';(r=new FileReader).readAsArrayBuffer(event.target.files[0]);r.onload=function(){for(i in u=new Uint8Array(r.result))h+=(i%16?' ':'\n'+(1e7+(+i)[t='toString'](16)).slice(-8)+' | ')+(0+u[i][t](16)).slice(-2);outerHTML=h}"type=file>
+﻿<input id=I onchange="h='<pre>';(r=new FileReader).readAsArrayBuffer(I.files[0]);r.onload=function(){for(i in u=new Uint8Array(r.result))h+=(i%16?' ':'\n'+(1e7+(+i)[t='toString'](16)).slice(-8)+' | ')+(0+u[i][t](16)).slice(-2);outerHTML=h}"type=file>

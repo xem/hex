@@ -11,7 +11,7 @@ for(i=0;i<16;i++)
 h="";
 
 // Read the uploaded file as an ArrayBuffer
-(f=new FileReader).readAsArrayBuffer(event.target.files[0]);
+(f=new FileReader).readAsArrayBuffer(w.files[0]);
 f.onload=function(){
   
   // Loop on the file bytes
